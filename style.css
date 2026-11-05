@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap');
+:root{font-family:'Work Sans',Arial,sans-serif;color:#3f3f3f;background:#f7f5f2;font-synthesis:none}*{box-sizing:border-box}body{margin:0;background:#f7f5f2}button,input,select{font:inherit}button{cursor:pointer}.app{min-height:100vh;position:relative;background:#f7f5f2}.top{height:70px;background:#2d2d2d;color:#fff;display:flex;align-items:center;padding:0 32px;position:relative;z-index:5}.hamb{width:56px;height:56px;border:0;background:transparent;color:#fff;display:grid;place-items:center;margin-right:10px}.brandGlyph{font-size:30px;line-height:1;border:2px solid white;width:24px;height:25px;display:grid;place-items:center}.cengageLogo{height:48px;display:flex;align-items:center;color:#fff;font-size:18px;line-height:16px;gap:4px}.cengageLogo small{display:block;font-size:10px;text-align:center;line-height:12px}.cengageSymbol{font-size:22px;font-weight:bold}.accountButton{margin-left:auto;height:48px;display:flex;align-items:center;gap:10px;border:0;color:white;background:transparent;font-size:14px;letter-spacing:.1px;padding:0 8px}.smiley{width:28px;height:28px;border-radius:50%;background:#fc0;color:#2d2d2d;font-size:20px;display:grid;place-items:center}.accountMenu{position:absolute;z-index:8;right:32px;top:58px;width:220px;background:#fff;border:1px solid #d4d4d4;border-radius:8px;padding:8px 0;box-shadow:0 2px 6px #0003}.accountMenu button{height:40px;width:100%;border:0;background:#fff;display:flex;align-items:center;gap:10px;padding:0 16px;color:#454545;text-align:left}.accountMenu svg{width:20px}.main{min-height:626px;padding:32px 32px 0}.mainHeader{height:56px;display:flex;align-items:flex-start;justify-content:space-between}.mainHeader h1,.homeMain h1,.teacherTitle h1{font-size:28px;line-height:40px;font-weight:600;margin:0;color:#2d2d2d}.mainActions{display:flex;gap:16px}.btn{height:40px;padding:0 18px;background:white;border:1px solid #dcd7d3;border-radius:8px;color:#2d2d2d;font-size:14px;font-weight:600;white-space:nowrap}.btn.teal{background:#007e7a;color:#fff;border-color:#007e7a}.btn.tealOutline{color:#007e7a;border-color:#007e7a}.btn.yellow{background:#fc0;border-color:#fc0;color:#2d2d2d}.tabs,.subtabs{height:52px;display:flex;border-bottom:1px solid #d6d1cd;gap:0}.tabs button,.subtabs button{height:52px;position:relative;padding:0 16px;border:0;background:transparent;color:#666;font-size:14px}.tabs button.active,.subtabs button.active{color:#007e7a}.tabs button.active:after,.subtabs button.active:after{content:'';position:absolute;bottom:0;left:0;right:0;height:4px;border-radius:4px 4px 0 0;background:#007e7a}.sectionHeading{height:80px;display:flex;align-items:center;justify-content:space-between}.sectionHeading>div{display:flex;gap:16px}h2{font-size:24px;line-height:32px;margin:0;font-weight:600;color:#3f3f3f}.profileCard{height:300px;background:#fff;border:1px solid #dcd7d3;border-radius:8px;padding:10px 23px;display:grid;grid-template-columns:1fr 1fr;column-gap:24px}.profileRow{height:57px;border-bottom:1px solid #dcd7d3;display:grid;grid-template-columns:1fr 1fr;align-items:center;font-size:16px}.profileRow:last-child{border-bottom:0}.profileRow b{font-size:16px;font-weight:600}.profileRow a{color:#007e7a;font-weight:600;text-decoration:none;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.profileRow>span{color:#454545}.pill{justify-self:start;background:#00877f;color:white!important;border-radius:14px;padding:4px 9px;font-size:12px}.copy{border:0;background:none;color:#00877f;vertical-align:middle;padding:0 5px}.preferenceTitle{font-size:24px;line-height:32px;margin:26px 0 20px}.prefCard{height:140px;background:#fff;border:1px solid #dcd7d3;border-radius:8px;padding:24px}.prefTop{display:flex;justify-content:space-between;align-items:center}.prefTop b{font-size:16px;font-weight:600;color:#2d2d2d}.prefTop i{font-size:16px;color:#444;font-style:italic;font-weight:400}.prefContent{display:flex;align-items:flex-start;gap:8px;margin-top:16px}.prefContent>div{padding-top:2px}.allow{font-size:16px}.prefContent p{font-size:16px;line-height:24px;margin:6px 0 0;color:#454545}.toggle input{position:absolute;opacity:0;pointer-events:none}.track{width:48px;height:24px;border-radius:14px;background:#777;display:block;position:relative;cursor:pointer}.track i{position:absolute;left:3px;top:3px;width:18px;height:18px;border-radius:50%;background:#fff;transition:.15s}.toggle input:checked+.track{background:#138c38}.toggle input:checked+.track i{left:27px}.toggle input:checked+.track:before{content:'✓';position:absolute;z-index:1;left:7px;top:1px;color:#fff;font-size:16px}.prefCard+.toast{position:absolute}.toast{position:fixed;z-index:20;left:32px;bottom:96px;height:56px;width:600px;border:1px solid #00852b;border-radius:8px;background:#dcffe5;color:#087528;box-shadow:0 2px 6px #0003;display:flex;align-items:center;gap:10px;padding:0 14px;font-size:16px;letter-spacing:.1px}.toast>span{width:20px;height:20px;background:#07852b;color:white;border-radius:50%;display:grid;place-items:center}.toast>span svg{width:15px}.toast button{margin-left:auto;border:0;background:transparent;color:#087528;padding:3px}.homeMain{padding:32px;min-height:626px}.homeGrid{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));column-gap:24px;row-gap:28px;margin-top:24px}.homeGrid section{display:flex;flex-direction:column;align-items:flex-start;gap:10px}.homeGrid h2{font-size:24px}.homeGrid a{color:#007e7a;font-size:16px;line-height:24px;text-decoration:none;cursor:pointer}.homeGrid a:hover{text-decoration:underline}footer{height:72px;padding:24px 32px;display:flex;gap:14px;align-items:center;color:#007e7a;font-size:16px;margin-top:auto}footer a{color:#007e7a;text-decoration:none}.scrim{position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:10}.drawer{position:fixed;z-index:11;left:0;top:0;bottom:0;width:326px;background:#fff;padding:18px 16px;overflow:auto;display:flex;flex-direction:column;gap:0}.drawer a{height:40px;flex:none;padding:9px 0;color:#007e7a;text-decoration:none;font-size:16px;cursor:pointer}.drawer b{font-size:18px;margin:12px 0 4px}.drawer> a:nth-of-type(n+3){padding-left:32px}.drawerClose{position:absolute;right:20px;top:20px;border:0;background:#fff;color:#333}.drawer hr{border:0;border-top:1px solid #ddd;width:calc(100% + 32px);margin:12px -16px}.homeDrawer{gap:0}.homeDrawer a:first-of-type{margin-top:0}.homeDrawer .drawerClose{position:fixed;left:280px;right:auto}.teacherMain{padding:24px 32px 0;min-height:calc(100vh - 142px)}.teacherTitle{height:60px;display:flex;justify-content:space-between;align-items:flex-start}.teacherForm{width:100%;display:flex;flex-direction:column;gap:17px}.teacherForm>label:not(.checkline){display:flex;flex-direction:column;gap:8px;font-size:14px;color:#2d2d2d}.teacherForm select,.formInput{height:40px;border:1px solid #858585;border-radius:8px;background:white;width:100%;padding:0 8px;color:#777}.teacherForm select{appearance:auto}.formInput{display:flex;align-items:center;padding-right:12px;color:#004b4c}.formInput input{height:36px;flex:1;min-width:0;border:0;outline:0;background:transparent;color:#444}.teacherForm em{font-style:normal;color:#d51c2b;font-weight:700}.checkline{display:flex;align-items:center;gap:9px;font-size:14px}.required{font-size:14px;margin:0}.formButtons{display:flex;gap:12px}.teacherResults{margin-top:42px}.teacherResults h2{margin-bottom:12px}.resultRow{display:grid;grid-template-columns:repeat(4,1fr);margin-top:12px;padding:14px;background:#004e4c;color:white}.screenShortcut{position:fixed;right:8px;bottom:8px;width:20px;height:20px;opacity:.02;border:0;background:#444;color:#fff;font-size:10px;z-index:30}.screenNav{position:fixed;right:12px;bottom:32px;z-index:31;background:#fff;box-shadow:0 2px 12px #0003;border-radius:8px;padding:6px;max-height:60vh;overflow:auto}.screenNav button{display:block;border:0;background:#fff;padding:7px 10px;text-align:left;font-size:12px}.screenNav button.chosen{color:#007e7a;background:#edf8f7}.subtabs{height:48px}.subtabs button{height:48px}.tableControls{height:72px;display:flex;align-items:center;justify-content:space-between;font-size:14px}.tableControls select{height:40px;border:1px solid #888;border-radius:8px;padding:0 8px;background:white}.courseSearch{height:40px;border:1px solid #858585;border-radius:8px;background:white;display:flex;align-items:center;gap:8px;padding:0 10px;color:#004e4d}.courseSearch input{width:150px;border:0;outline:0;font-size:16px}.courseTable{border-radius:8px;overflow:hidden}.courseHead,.courseRow{display:grid;grid-template-columns:2.55fr .9fr 1.2fr .95fr .9fr 1.2fr 48px;align-items:stretch}.courseHead{height:72px;background:#004e4d;color:white;font-size:16px;font-weight:600}.courseHead span{display:flex;align-items:center;padding:12px;border-right:1px solid #dcd7d3}.courseRow{min-height:72px;background:white;border-bottom:1px solid #dcd7d3;font-size:16px}.courseRow>span,.courseRow>a{padding:12px;border-right:1px solid #dcd7d3;display:flex;align-items:center;line-height:24px}.courseRow>a{color:#00877f;font-weight:600;position:relative;padding-right:74px}.launch{position:absolute;right:10px;background:#00877f;border:0;color:white;border-radius:8px;padding:8px 10px;font-size:12px;font-weight:600}.pagination{display:flex;justify-content:space-between;align-items:center;padding:16px 0;font-size:14px}.pagination>div{display:flex;gap:4px}.pagination button{min-width:34px;height:34px;border:1px solid #d5d1ce;background:white;border-radius:4px}.pagination button.current{background:#007e7a;color:#fff}
+.cengageLogo{display:block;width:110px;height:48px;object-fit:contain}
+.brandIcon{display:block;width:32px;height:32px;object-fit:contain}.smiley img{display:block;width:20px;height:20px}
+.accountMenu button img{width:24px;height:24px;object-fit:contain;flex:none}
+.registeredHeader{display:flex;align-items:center;justify-content:space-between;width:100%;min-height:40px}.registeredHeader h2{font-size:24px}.registeredActions{display:flex;gap:16px}.registeredActions .btn{min-width:96px}.registeredActions .btn:disabled{background:#f7f5f2;color:#999;border-color:#dcd7d3;cursor:not-allowed}.teacherTableControls{height:56px;display:flex;justify-content:space-between;align-items:center;width:100%;font-size:14px}.teacherTableControls label{display:flex;align-items:center;gap:8px}.teacherTableControls select{height:40px;min-width:64px;background:white;border:1px solid #888;border-radius:8px;padding:0 8px;color:#555}.tableSearch>span{height:40px;width:313px;border:1px solid #888;background:#fff;border-radius:8px;display:flex;align-items:center;padding:0 10px;color:#004c4a}.tableSearch input{flex:1;min-width:0;border:0;outline:0;background:transparent;font-size:14px}.teacherTableWrap{width:100%;overflow:auto;border-radius:8px 8px 0 0}.teacherTable{width:1300px;table-layout:fixed;border-collapse:collapse;background:#fff}.teacherTable th{height:64px;background:#004c4a;border-right:1px solid #dcd7d3;padding:8px 12px;text-align:left;color:#fff;font-size:16px}.teacherTable th button{width:100%;display:flex;justify-content:space-between;align-items:center;color:#fff;background:none;border:0;padding:0;font-weight:600;text-align:left}.teacherTable th:last-child{text-align:center;padding:6px}.teacherTable td{height:72px;background:#fff;border-right:1px solid #dcd7d3;border-bottom:1px solid #dcd7d3;padding:12px;font-size:15px;line-height:22px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.teacherTable td:last-child{text-align:center;padding:4px}.teacherName{display:flex;align-items:center;gap:9px;min-width:0;cursor:pointer}.teacherName input,.teacherTable th input{accent-color:#007e7a;width:16px;height:16px;flex:none}.teacherName span{overflow:hidden;text-overflow:ellipsis}.teacherStatus{display:inline-block;border-radius:12px;background:#e8f4ea;color:#26703b;padding:3px 9px;font-size:13px}.rowMenu{border:0;background:none;font-size:22px;color:#454545}.teacherPagination{display:flex;align-items:center;justify-content:space-between;width:100%;min-height:48px;font-size:14px}.teacherPagination>div{display:flex;gap:4px}.teacherPagination button{height:34px;min-width:34px;border:1px solid #dcd7d3;border-radius:4px;background:#fff;color:#454545;display:grid;place-items:center}.teacherPagination button:disabled{color:#aaa;cursor:default}.teacherPagination button.current{background:#007e7a;color:#fff;border-color:#007e7a}
+/* Figma search adornments and full-width teacher data table */
+.selectWrap{height:40px;position:relative;display:block;width:100%}.teacherForm .selectWrap select{width:100%;height:40px;appearance:none;-webkit-appearance:none;padding:0 38px 0 8px}.selectWrap>img{position:absolute;width:20px;height:20px;right:9px;top:10px;pointer-events:none}.formInput>img,.tableSearch>span>img{width:20px;height:20px;flex:none;object-fit:contain}.formInput>img{margin-right:1px}.teacherTable{width:100%;min-width:100%;}.teacherTable col:nth-child(1){width:14%}.teacherTable col:nth-child(2),.teacherTable col:nth-child(3),.teacherTable col:nth-child(4){width:17%}.teacherTable col:nth-child(5){width:10%}.teacherTable col:nth-child(6){width:11%}.teacherTable col:nth-child(7){width:10%}.teacherTable col:nth-child(8){width:4%}
+.teacherNameLink{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#007e7a;text-decoration:none;font-weight:500;cursor:pointer}.teacherNameLink:hover{text-decoration:underline}
+.btn.yellow{display:inline-flex;align-items:center;gap:8px}.impersonateIcon{display:block;width:24px;height:24px;object-fit:contain}.districtEdit{display:inline-flex;align-items:center;justify-content:center;padding:0;margin-left:4px;border:0;background:transparent;vertical-align:middle;cursor:pointer}.districtEdit img{display:block;width:20px;height:20px}
+.allow{font-weight:500}.toggle input:checked+.track:before{content:'';position:absolute;z-index:1;left:7px;top:5px;width:14px;height:14px;background:url('/toggle-check.svg') center/contain no-repeat}
+.teacherTable td.rowSelect{text-align:center;padding:4px}.teacherTable td.rowSelect input{accent-color:#007e7a;width:16px;height:16px;vertical-align:middle}
+.accountChevron{transition:transform .18s ease}.accountChevron.isOpen{transform:rotate(180deg)}
+.logoHome{display:flex;align-items:center;justify-content:center;padding:0;border:0;background:transparent;cursor:pointer}.logoHome:focus-visible{outline:2px solid #fff;outline-offset:2px;border-radius:3px}
+.teacherTable .sortAsset{width:20px;height:20px;flex:none;filter:brightness(0) invert(1)}
+.teacherTable .teacherStatus{display:inline-flex;align-items:center;min-height:20px;padding:2px 8px;border-radius:999px;background:#00877f;color:#fff;font-size:12px;line-height:16px;font-weight:500}
+.teacherTable tbody tr:last-child td:first-child{border-bottom-left-radius:8px}
+.teacherTable tbody tr:last-child td:last-child{border-bottom-right-radius:8px}
+.profileCard>div,.profileRow>*{min-width:0}
+.urlValue{min-width:0;display:flex;align-items:center;gap:4px}
+.profileRow .urlValue>a{display:block;flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.profileRow .urlValue .copy{flex:none}
+.required{color:#bc1919}
+.registeredActions .downloadBtn{width:143px;display:flex;align-items:center;justify-content:space-between;padding:0 16px}
+.downloadIcon{width:24px;height:24px;flex:none}
+.sectionHeading .downloadBtn{position:relative;width:132px;justify-content:center;padding:0 42px 0 16px}
+.sectionHeading .downloadBtn .downloadIcon{position:absolute;right:12px;width:20px;height:20px}
+.courseHead .sortAsset{width:16px;height:16px;flex:none;filter:brightness(0) invert(1)}
+.courseHead span{justify-content:space-between}
+.teacherTable input[type="checkbox"],.checkline input[type="checkbox"]{appearance:none;-webkit-appearance:none;display:inline-grid;place-content:center;flex:none;width:16px;height:16px;margin:0;border:1px solid #454545;border-radius:2px;background:#fff;vertical-align:middle;cursor:pointer}
+.teacherTable input[type="checkbox"]::after,.checkline input[type="checkbox"]::after{content:"";display:none;width:4px;height:8px;margin-top:-2px;border:solid #fff;border-width:0 2px 2px 0;transform:rotate(45deg)}
+.teacherTable input[type="checkbox"]:checked,.checkline input[type="checkbox"]:checked{border-color:#007e7a;background:#007e7a}
+.teacherTable input[type="checkbox"]:checked::after,.checkline input[type="checkbox"]:checked::after{display:block}
+.teacherTable input[type="checkbox"]:focus-visible,.checkline input[type="checkbox"]:focus-visible{outline:2px solid #007e7a;outline-offset:2px}
+@media (max-width: 900px){
+  .mainHeader{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:16px;min-height:120px;height:auto;margin-bottom:24px;align-items:center}
+  .accountTitle{width:100%;max-width:none;min-width:0;align-self:stretch;flex-wrap:wrap;align-content:center;gap:8px}
+  .accountTitle h1{width:337px;max-width:calc(100% - 76px);white-space:normal;overflow-wrap:anywhere;line-height:40px}
+  .mainActions{min-width:0;flex-wrap:wrap;justify-content:flex-end}
+  .tabs{overflow-x:auto;overflow-y:hidden;white-space:nowrap}
+  .profileCard{height:auto;min-height:0;grid-template-columns:minmax(0,1fr);grid-auto-rows:min-content;align-content:start;padding:16px 23px;overflow:visible}
+  .profileCard>div{display:contents}
+  .profileCard>div:first-child>.profileRow:nth-child(1){order:1}
+  .profileCard>div:last-child>.profileRow:nth-child(1){order:2}
+  .profileCard>div:first-child>.profileRow:nth-child(2){order:3}
+  .profileCard>div:last-child>.profileRow:nth-child(2){order:4}
+  .profileCard>div:first-child>.profileRow:nth-child(3){order:5}
+  .profileCard>div:last-child>.profileRow:nth-child(3){order:6}
+  .profileCard>div:first-child>.profileRow:nth-child(4){order:7}
+  .profileCard>div:last-child>.profileRow:nth-child(4){order:8}
+  .profileCard>div:first-child>.profileRow:nth-child(5){order:9}
+  .teacherTable{min-width:1000px}
+  .courseTable{overflow-x:auto;overflow-y:hidden}
+  .courseHead,.courseRow{min-width:1000px}
+}
+@media (max-width: 720px){
+  .main{padding-right:20px;padding-left:20px}
+  .mainHeader{grid-template-columns:minmax(0,1fr);gap:12px;align-items:start;padding:8px 0}
+  .accountTitle{align-self:auto}
+  .accountTitle h1{width:auto;max-width:100%;flex:1 1 100%;font-size:26px}
+  .mainActions{justify-content:flex-start}
+  .sectionHeading{gap:12px}
+  .sectionHeading>div{gap:8px}
+  .profileCard{padding-right:16px;padding-left:16px}
+  .profileRow{grid-template-columns:minmax(130px,1fr) minmax(0,1fr);font-size:14px}
+  .profileRow b{font-size:14px}
+  .roleTags{gap:4px}
+  .tabs button{padding-right:12px;padding-left:12px}
+}
+.teacherTable th:first-child,.teacherTable td:first-child{border-left:1px solid #dcd7d3}
+.teacherPagination{font-size:16px;font-weight:600;color:#000}
+.teacherPagination>div{gap:0;border:1px solid #007e7a;border-radius:8px;overflow:hidden}
+.teacherPagination button{width:40px;height:40px;min-width:40px;border:0;border-right:1px solid #007e7a;border-radius:0;background:#fff;color:#007e7a;display:grid;place-items:center}
+.teacherPagination button:last-child{border-right:0}
+.teacherPagination button:disabled{background:#e7f4f3;color:#5b9d99;cursor:default}
+.teacherPagination button.current{background:#007e7a;color:#fff;border-color:#007e7a}
+.teacherPagination{margin-top:16px}
+.mainHeader{height:40px;margin-bottom:24px;align-items:center}
+.accountTitle{display:flex;align-items:center;gap:8px;min-width:0}
+.accountTitle h1{white-space:nowrap}
+.accountStatus{height:32px;display:inline-flex;align-items:center;padding:4px 12px;border-radius:999px;background:#00877f;color:#fff;font-size:14px;line-height:24px;font-weight:500}
+.tabs,.tabs button{height:44px}
+.profileCard{height:320px}
+.profileCard .profileRow:last-child{border-bottom:1px solid #dcd7d3}
+.roleTags{min-width:0;display:flex;align-items:center;gap:4px;flex-wrap:wrap}
+.roleTags span{min-height:24px;display:inline-flex;align-items:center;padding:2px 8px;border-radius:999px;background:#dedbd8;color:#3f3f3f;font-size:12px;line-height:20px;font-weight:500;white-space:nowrap}
+.schoolsPanel{margin-top:24px;display:flex;flex-direction:column;gap:16px}
+.schoolsPanel .teacherTableControls{height:40px}
+.schoolSearch>span{width:184px}
+.schoolTable th{height:48px}
+.schoolTable td.schoolDistrict{white-space:normal;line-height:22px}
+.teacherStatus.archived{background:#e6e2df;color:#454545}
+.teacherTable{border-collapse:separate;border-spacing:0}
+.drawer{padding:8px 0 0;overflow:hidden}
+.drawerScroll{flex:1;min-height:0;overflow-y:auto;overscroll-behavior:contain;padding:0 0 8px}
+.drawerScroll>a{height:40px;display:flex;align-items:center;padding-top:8px;padding-bottom:8px}
+.drawerScroll>a:nth-of-type(-n+2){height:56px;padding:16px}
+.drawerScroll>b{height:48px;flex:none;display:flex;align-items:center;margin:0;padding:8px 16px;font-size:20px;line-height:32px}
+.drawerScroll> a:nth-of-type(n+3){padding-left:48px}
+.drawerFooter{height:168px;flex:none;border-top:1px solid #dcd7d3;background:#fff;display:flex;flex-direction:column}
+.drawerFooter>a{height:56px;flex:none;display:flex;align-items:center;gap:8px;padding:16px;color:#007e7a;font-size:16px;font-weight:500}
+.drawerFooter>a svg{width:16px;height:16px}
+.drawer .drawerClose,.homeDrawer .drawerClose{position:absolute;top:16px;right:16px;left:auto;z-index:1;width:40px;height:40px;padding:0;display:grid;place-items:center}
+@media (max-width: 900px){.profileCard{height:auto;min-height:320px;grid-auto-rows:min-content;align-content:start}}
+.courseTable{border:1px solid #dcd7d3;border-radius:8px;background:#fff}
+.courseTable .courseRow:last-child{border-bottom:0}
+.courseHead{height:48px;background:#004c4a}
+.courseHead span{padding:8px 12px}
+.courseHead .sortAsset{width:20px;height:20px}
