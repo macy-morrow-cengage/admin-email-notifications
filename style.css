@@ -107,3 +107,23 @@
 .courseHead{height:48px;background:#004c4a}
 .courseHead span{padding:8px 12px}
 .courseHead .sortAsset{width:20px;height:20px}
+.top{position:sticky;top:0;z-index:9}
+.teacherTable a,.courseTable a{font-weight:600}
+.accountMenu button{gap:8px;align-items:flex-start;padding:8px 16px;line-height:24px;transition:background-color .12s ease}
+.accountMenu button:hover{background:#f7f5f2}
+.accountMenu button:focus-visible{outline:2px solid #007e7a;outline-offset:-2px}
+.launch{width:61px;height:28px;padding:6px 8px;line-height:16px}
+.copyIcon{display:block;width:20px;height:20px}
+.courseRow .copy{display:grid;place-items:center}
+.tabs button:not(.active):hover,.subtabs button:not(.active):hover{background:rgba(0,0,0,.05);color:#2d2d2d}
+.tabs button:focus-visible,.subtabs button:focus-visible{outline:2px solid #007e7a;outline-offset:-2px}
+.prefCard{height:auto;min-height:140px}
+.prefContent{min-width:0}
+.prefContent>div{min-width:0;flex:1}
+.prefContent p{max-width:100%;overflow-wrap:anywhere}
+@media (max-width:720px){
+  .prefCard{padding:20px;}
+  .prefTop{align-items:flex-start;gap:8px 16px;flex-wrap:wrap}
+  .prefTop i{margin-left:auto;text-align:right}
+  .prefContent{gap:10px}
+}
