@@ -127,3 +127,12 @@
   .prefTop i{margin-left:auto;text-align:right}
   .prefContent{gap:10px}
 }
+.teacherTable:not(.schoolTable) tbody td:nth-child(2),
+.teacherTable:not(.schoolTable) tbody td:nth-child(3),
+.teacherTable:not(.schoolTable) tbody td:nth-child(4){
+  height:auto;
+  white-space:normal;
+  overflow:visible;
+  overflow-wrap:anywhere;
+  text-overflow:clip;
+}
