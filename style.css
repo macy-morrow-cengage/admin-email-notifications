@@ -9,7 +9,7 @@
 .teacherNameLink{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#007e7a;text-decoration:none;font-weight:500;cursor:pointer}.teacherNameLink:hover{text-decoration:underline}
 .btn.yellow{display:inline-flex;align-items:center;gap:8px}.impersonateIcon{display:block;width:24px;height:24px;object-fit:contain}.districtEdit{display:inline-flex;align-items:center;justify-content:center;padding:0;margin-left:4px;border:0;background:transparent;vertical-align:middle;cursor:pointer}.districtEdit img{display:block;width:20px;height:20px}
 .allow{font-weight:500}.toggle input:checked+.track:before{content:'';position:absolute;z-index:1;left:7px;top:5px;width:14px;height:14px;background:url('/toggle-check.svg') center/contain no-repeat}
-.teacherTable td.rowSelect{text-align:center;padding:4px}.teacherTable td.rowSelect input{accent-color:#007e7a;width:16px;height:16px;vertical-align:middle}
+.teacherTable td.rowSelect{text-align:center;padding:4px}.teacherTable td.rowSelect input{width:24px;height:24px;vertical-align:middle}
 .accountChevron{transition:transform .18s ease}.accountChevron.isOpen{transform:rotate(180deg)}
 .logoHome{display:flex;align-items:center;justify-content:center;padding:0;border:0;background:transparent;cursor:pointer}.logoHome:focus-visible{outline:2px solid #fff;outline-offset:2px;border-radius:3px}
 .teacherTable .sortAsset{width:20px;height:20px;flex:none;filter:brightness(0) invert(1)}
@@ -136,3 +136,25 @@
   overflow-wrap:anywhere;
   text-overflow:clip;
 }
+.teacherTable input[type="checkbox"],.checkline input[type="checkbox"]{
+  appearance:none;
+  -webkit-appearance:none;
+  display:inline-block;
+  flex:none;
+  width:24px;
+  height:24px;
+  margin:0;
+  padding:0;
+  border:0;
+  border-radius:0;
+  background:transparent url('/checkbox-unchecked.svg') center/24px 24px no-repeat;
+  vertical-align:middle;
+  cursor:pointer;
+}
+.teacherTable input[type="checkbox"]::after,.checkline input[type="checkbox"]::after{content:none;display:none}
+.teacherTable input[type="checkbox"]:checked,.checkline input[type="checkbox"]:checked{border:0;background:transparent url('/checkbox-checked.svg') center/24px 24px no-repeat}
+.teacherTable input[type="checkbox"]:focus-visible,.checkline input[type="checkbox"]:focus-visible{outline:2px solid #007e7a;outline-offset:2px}
+.teacherTable input[type="checkbox"]:disabled,.checkline input[type="checkbox"]:disabled{opacity:.5;cursor:not-allowed}
+.teacherTable th input[type="checkbox"]{background-image:url('/checkbox-header-unchecked.svg')}
+.teacherTable th input[type="checkbox"]:checked{background-image:url('/checkbox-header-checked.svg')}
+.teacherTable th input[type="checkbox"]:focus-visible{outline-color:#fff}
